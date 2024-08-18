@@ -16,7 +16,7 @@ html, body {
 li, a, button {
   font-family: "Cinzel Decorative", cursive;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem; /* Use rem for better scalability */
   color: #F4DA65;
   text-decoration: none;
   cursor: url(Cursor.png), auto;
@@ -26,40 +26,40 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10%;
+  padding: 10px 5%;
   border-bottom: 1px solid #F4DA65;
 }
 
 .logo {
-  margin-right: 50px;
+  margin-right: 20px;
+  max-width: 150px; /* Ensure logo scales */
 }
 
 .nav_links {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nav_links li {
-  display: inline-block;
-  margin-right: 50px;
-  padding: 0 20px;
+  margin-right: 20px;
+  padding: 0 10px;
 }
 
 #Btn1, #Btn2, #Btn3, #Btn4 {
   border: none;
   padding: 10px 5px;
-  background-color: #30302F; /* Added background color */
+  background-color: #30302F;
 }
 
 #Btn5 {
-  padding: 9px 25px;
+  padding: 9px 15px;
   background: rgba(84, 61, 175, 1);
   border: none;
   border-radius: 50px;
   cursor: url(Cursor.png), auto;
   transition: all 0.3s ease;
-  margin-right: 50px;
-  position: relative;
-  left: 80px;
+  margin-right: 10px;
 }
 
 #Btn5:hover {
@@ -68,27 +68,25 @@ header {
 
 /* Dropdown Button */
 .dropbtn {
-  font-size: 16px;
+  font-size: 1rem;
   border: none;
-  position: relative;
-  background-color: #30302F; /* Added background color */
-  color: #F4DA65; /* Ensures the text is visible */
+  background-color: #30302F;
+  color: #F4DA65;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
-  padding: 0 50px;
 }
 
 /* Dropdown Content */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #30302F; /* Added background color */
-  color: #F4DA65; /* Ensures the text is visible */
-  min-width: 160px;
+  background-color: #30302F;
+  color: #F4DA65;
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border: 1px solid #F4DA65;
@@ -100,7 +98,7 @@ header {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  background-color: #30302F; /* Added background color */
+  background-color: #30302F;
 }
 
 /* Change color of dropdown links on hover */
@@ -117,36 +115,36 @@ header {
   overflow: hidden;
   background-color: transparent;
   color: #F4DA65;
-  font-size: 35px;
+  font-size: 2rem; /* Responsive font size */
   background-image: url(Background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 50vh; /* Use vh for responsiveness */
 }
 
 .P1, .C1 {
   background-color: transparent;
   position: absolute;
-  width: 700px;
-  top: 50px;
-  left: 195px;
+  width: 80%; /* Use percentage for responsiveness */
+  top: 5%;
+  left: 10%;
   text-align: center;
-  font-size: 25px; 
+  font-size: 1.5rem; 
 }
 
 .P2 {
   background: transparent;
   position: absolute;
-  font-size: 16px; 
+  font-size: 1rem; 
   text-align: center;
-  width: 730px;
-  left: 375px;
-  bottom: 70px;
+  width: 80%;
+  left: 10%;
+  bottom: 5%;
 }
 
 .B2 {
-  padding: 400px 10px;
+  padding: 20vh 5%;
   overflow: hidden;
   background-color: transparent;
 }
@@ -154,14 +152,42 @@ header {
 .P3 {
   background-color: transparent;
   position: absolute;
-  width: 300px;
-  right: 580px;
+  width: 40%;
+  right: 30%;
   text-align: left;
-  font-size: 18px;
-  top: 30px;
+  font-size: 1rem;
+  top: 5%;
   text-decoration: underline;
 }
 
 body {
   cursor: url(Cursor.png), auto;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  
+  .nav_links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .B1, .B2 {
+    padding: 10vh 2%;
+  }
+
+  .P1, .C1, .P2, .P3 {
+    width: 90%;
+    left: 5%;
+    font-size: 1rem;
+  }
+
+  #Btn5 {
+    padding: 7px 15px;
+    left: 0;
+    margin-right: 0;
+  }
 }
