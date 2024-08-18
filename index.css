@@ -1,6 +1,9 @@
 html, body {
   font-family: 'Cinzel Decorative', cursive;
-  background: #543DAF;
+  background-image: url(Background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin: 0;
   height: 100%;
   overflow-x: hidden;
