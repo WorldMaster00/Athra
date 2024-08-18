@@ -6,7 +6,7 @@ html, body {
   background-position: center;
   margin: 0;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   padding-top: 60px;
 }
 
@@ -118,6 +118,13 @@ header {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* Main Content Container */
+.main-content {
+  padding-top: 60px; /* Adjust this value to match the height of your header */
+  min-height: 100vh; /* Ensure it covers the viewport height */
+  color: #F4DA65;
 }
 
 .B1 {
