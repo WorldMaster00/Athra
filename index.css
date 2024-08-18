@@ -121,11 +121,6 @@ header {
   background-color: transparent;
   color: #F4DA65;
   font-size: 2rem;
-  background-image: url(Background1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 50vh;
 }
 
 .P1, .C1 {
