@@ -24,14 +24,17 @@ li, a, button {
   text-decoration: none;
   cursor: url(Cursor.png), auto;
 }
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 5%;
   border-bottom: 1px solid #F4DA65;
-  background-color: #30302F; /* Background color updated */
+  background-color: #30302F;
+  position: fixed; /* Make sure header stays fixed at the top */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it sits above other content */
 }
 
 .logo {
