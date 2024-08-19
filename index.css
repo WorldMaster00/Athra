@@ -157,28 +157,7 @@ header {
   bottom: 5%; /* Default position for larger screens */
 }
 
-.B2 {
-  padding: 20vh 5%;
-  overflow: hidden;
-  background-color: transparent;
-}
-
-.P3 {
-  background-color: transparent;
-  position: absolute;
-  width: 40%;
-  right: 30%;
-  text-align: left;
-  font-size: 1rem;
-  top: 5%;
-  text-decoration: underline;
-}
-
-body {
-  cursor: url(Cursor.png), auto;
-}
-
-/* Media Queries for Responsive Design */
+/* Media Queries for Mobile */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -203,18 +182,21 @@ body {
     padding: 10vh 2%;
   }
 
-  .P1, .C1, .P2, .P3 {
+  .P1, .C1, .P3 {
     width: 90%;
     left: 5%;
     font-size: 1rem;
   }
 
   .P2 {
-    bottom: auto; /* Remove the bottom alignment */
-    top: 30%; /* Position it in the middle */
+    bottom: 0; /* Align it at the bottom of the screen */
+    top: 0;
     left: 50%; /* Center it horizontally */
-    transform: translate(-50%, -50%); /* Adjust to center both horizontally and vertically */
+    transform: translateX(-50%); /* Adjust to center horizontally */
     width: 90%; /* Adjust width to fit mobile screens */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100%; /* Make it take up the full height */
   }
 }
-
