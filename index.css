@@ -211,7 +211,7 @@ body {
 
   .P2 {
     bottom: auto; /* Remove the bottom alignment */
-    top: 50%; /* Position it in the middle */
+    top: 30%; /* Position it in the middle */
     left: 50%; /* Center it horizontally */
     transform: translate(-50%, -50%); /* Adjust to center both horizontally and vertically */
     width: 90%; /* Adjust width to fit mobile screens */
