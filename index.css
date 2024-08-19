@@ -134,7 +134,7 @@ header {
   font-size: 2rem;
 }
 
-.P1, .C1 {
+.P1, {
   background-color: transparent;
   position: absolute;
   width: auto; /* Adjust width as needed */
@@ -146,15 +146,15 @@ header {
   color: #F4DA65;
 }
 
-
-.P2 {
-  background: transparent;
+.P2, {
+ background-color: transparent;
   position: absolute;
-  font-size: 1rem; 
-  text-align: center;
-  width: 80%;
-  left: 10%;
-  bottom: 5%;
+  width: auto; /* Adjust width as needed */
+  top: 0; /* Aligns it to the top of the screen */
+  padding: 20px; /* Optional: add some padding for spacing */
+  text-align: left; /* Align text to the left */
+  font-size: 1.5rem; 
+  color: #F4DA65;
 }
 
 .B2 {
