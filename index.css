@@ -7,7 +7,6 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 60px; /* Adjust this value based on the height of your header */
 }
 
 * {
@@ -129,32 +128,33 @@ header {
 .C1 {
   background-color: transparent;
   position: absolute;
-  width: auto; /* Adjust width as needed */
-  top: 0; /* Aligns it to the top of the screen */
-  left: 0; /* Aligns it to the left of the screen */
-  padding: 20px; /* Optional: add some padding for spacing */
-  text-align: left; /* Align text to the left */
+  width: auto;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  text-align: left;
   font-size: 1.5rem; 
   color: #F4DA65;
 }
 
-.P1, .P2 {
+.P1 {
   background-color: transparent;
   position: absolute;
   width: 80%;
+  top: 5%;
+  left: 10%;
   text-align: center;
   font-size: 1.5rem; 
 }
 
-.P1 {
-  top: 5%;
-  left: 10%;
-}
-
 .P2 {
+  background: transparent;
+  position: absolute;
   font-size: 1rem; 
-  bottom: 5%;
+  text-align: center;
+  width: 80%;
   left: 10%;
+  bottom: 5%; /* Default position for larger screens */
 }
 
 .B2 {
@@ -207,6 +207,14 @@ body {
     width: 90%;
     left: 5%;
     font-size: 1rem;
+  }
+
+  .P2 {
+    bottom: auto; /* Remove the bottom alignment */
+    top: 50%; /* Position it in the middle */
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Adjust to center both horizontally and vertically */
+    width: 90%; /* Adjust width to fit mobile screens */
   }
 }
 
