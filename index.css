@@ -2,12 +2,11 @@ html, body {
   font-family: 'Cinzel Decorative', cursive;
   margin: 0;
   height: 100%;
-  overflow: hidden;
+  overflow: hidden; /* Prevent scrolling */
   background-image: url(Background1.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-  padding-top: 70px;
 }
 
 * {
@@ -114,6 +113,11 @@ header {
   background-color: rgba(84, 61, 175, 0.8);
 }
 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* Main Content Container */
 .main-content {
   padding-top: 60px; /* Adjust this value to match the height of your header */
@@ -126,19 +130,7 @@ header {
   color: #F4DA65;
 }
 
-.C1 {
-  background-color: transparent;
-  position: absolute;
-  width: auto;
-  top: 0;
-  left: 0;
-  padding: 20px;
-  text-align: left;
-  font-size: 1.5rem; 
-  color: #F4DA65;
-}
-
-.P1 {
+.P1, .C1 {
   background-color: transparent;
   position: absolute;
   width: 80%;
@@ -155,20 +147,37 @@ header {
   text-align: center;
   width: 80%;
   left: 10%;
-  bottom: 5%; /* Default position for larger screens */
+  bottom: 5%;
 }
 
-/* Media Queries for Mobile */
+.B2 {
+  padding: 20vh 5%;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.P3 {
+  background-color: transparent;
+  position: absolute;
+  width: 40%;
+  right: 30%;
+  text-align: left;
+  font-size: 1rem;
+  top: 5%;
+  text-decoration: underline;
+}
+
+body {
+  cursor: url(Cursor.png), auto;
+}
+
+/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
-  html, body {
-    background-size: cover; /* Zoomed in for mobile screens */
-  }
   header {
     flex-direction: column;
     padding: 10px;
   }
-}
-
+  
   .nav_links {
     flex-direction: column;
     align-items: center;
@@ -187,21 +196,9 @@ header {
     padding: 10vh 2%;
   }
 
-  .P1, .C1, .P3 {
+  .P1, .C1, .P2, .P3 {
     width: 90%;
     left: 5%;
     font-size: 1rem;
-  }
-
-  .P2 {
-    bottom: 0; /* Align it at the bottom of the screen */
-    top: 0;
-    left: 50%; /* Center it horizontally */
-    transform: translateX(-50%); /* Adjust to center horizontally */
-    width: 90%; /* Adjust width to fit mobile screens */
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    height: 100%; /* Make it take up the full height */
   }
 }
