@@ -179,6 +179,9 @@ body {
 
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
+  body {
+    background-size: cover; /* Ensure full coverage on mobile */
+  }
   header {
     flex-direction: column;
     padding: 10px;
