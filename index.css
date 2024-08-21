@@ -7,6 +7,7 @@ html, body {
   background-size: cover;
   background-position: center;
   background-image: url(Background1.jpg);
+  cursor: url(Cursor.png), auto;
 }
 
 * {
@@ -33,6 +34,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 1000;
+  cursor: url(Cursor.png), auto;
 }
 
 .logo {
