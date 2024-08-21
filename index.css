@@ -114,6 +114,20 @@ li, a, button {
   margin-left: auto; /* Push CTA button to the right */
 }
 
+#Btn5 {
+  padding: 9px 25px;
+  background: rgba(84, 61, 175, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: url(Cursor.png), auto;
+  transition: all 0.3s ease;
+  margin: 0 15px;
+}
+
+#Btn5:hover {
+  background: rgba(84, 61, 175, 0.8);
+}
+
 /* Main Content Container */
 .main-content {
   padding-top: 60px; /* Adjust this value to match the height of your header */
