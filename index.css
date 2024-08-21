@@ -4,14 +4,13 @@ html, body {
   height: 100%;
   overflow: hidden;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   cursor: url(Cursor.png), auto;
 }
 
 body {
    background-image: url(Background1.jpg);
-    padding-top: 50px;
 }
 
 * {
