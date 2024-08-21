@@ -206,8 +206,8 @@ li, a, button {
   }
 
    .P1, .P3 {
-    width: 80%;
-    left: 10%;
+    width: 100%;
+    left: 5%;
     font-size: 1.5rem;
   }
 
@@ -217,7 +217,7 @@ li, a, button {
   }
 
   .P2 {
-    top: 50%; /* Move the text lower to avoid overlap */
+    top: 40%; /* Move the text lower to avoid overlap */
     width: 90%; /* Slightly reduce width to prevent overflow */
     left: 5%;   /* Center the text by adjusting left */
     font-size: 1.5rem; /* Adjust font-size for readability */
