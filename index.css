@@ -152,14 +152,13 @@ header {
 .P3 {
   background-color: transparent;
   position: absolute;
-  width: auto;
+  width: 300px;
   top: 0;
   left: 0;
-  padding: 20px;
   text-align: left;
   font-size: 1rem; 
   color: #F4DA65;
-  width: 100%;
+  
 }
 
 .P1 {
