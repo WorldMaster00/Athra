@@ -48,6 +48,7 @@ li, a, button {
   top: 0;
   width: 100%;
   z-index: 1000;
+  overflow: hidden; /* Prevent horizontal overflow */
 }
 
 /* Logo styling */
@@ -114,6 +115,7 @@ li, a, button {
   margin-left: auto; /* Push CTA button to the right */
 }
 
+/* CTA button specifics */
 #Btn5 {
   padding: 9px 25px;
   background: rgba(84, 61, 175, 1);
@@ -222,4 +224,5 @@ li, a, button {
     font-size: 1.5rem;
   }
 }
+
 
