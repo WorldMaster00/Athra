@@ -211,15 +211,17 @@ li, a, button {
     font-size: 1.5rem;
   }
 
-  .P2 {
-    font-size: 2rem;
-    width: 80%;
-    top: 30%;
-  }
-  
   .P1 {
     top: 20%;
     font-size: 2rem;
+  }
+
+  .P2 {
+    top: 50%; /* Move the text lower to avoid overlap */
+    width: 90%; /* Slightly reduce width to prevent overflow */
+    left: 5%;   /* Center the text by adjusting left */
+    font-size: 1.5rem; /* Adjust font-size for readability */
+    max-width: 100%; /* Ensure it doesn’t exceed the viewport width */
   }
 }
 
