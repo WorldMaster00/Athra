@@ -219,6 +219,8 @@ header {
     display: flex;
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
+    position: absoulte;
+    bottom: 50%;
   }
   
 .P1 {
