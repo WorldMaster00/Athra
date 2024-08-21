@@ -6,10 +6,6 @@ html, body {
   cursor: url(Cursor.png), auto;
 }
 
-body {
-   padding: 0; /* Removed background image and padding */
-}
-
 /* New Background Container */
 .background-container {
   background-image: url(Background1.jpg);
