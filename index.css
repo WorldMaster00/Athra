@@ -158,7 +158,7 @@ li, a, button {
   position: absolute;
   width: 300px; /* Keep this for smaller screens */
   top: 50px;
-  left: 30px; /* Increase the left value to create a gap */
+  left: 20px; /* Increase the left value to create a gap */
   text-align: left;
   font-size: 1rem; 
   color: #F4DA65;
