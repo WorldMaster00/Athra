@@ -146,6 +146,17 @@ header {
   left: 0;
   padding: 20px;
   text-align: left;
+  color: #F4DA65;
+}
+
+.P3 {
+  background-color: transparent;
+  position: absolute;
+  width: auto;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  text-align: left;
   font-size: 1rem; 
   color: #F4DA65;
 }
