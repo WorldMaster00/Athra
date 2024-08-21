@@ -6,9 +6,12 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(Background1.jpg);
   cursor: url(Cursor.png), auto;
   padding-top: 20%;
+}
+
+body {
+   background-image: url(Background1.jpg);
 }
 
 * {
