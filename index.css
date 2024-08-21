@@ -14,7 +14,7 @@ body {
   height: 100%;
   overflow: hidden;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-image: url(Background1.jpg);
 
