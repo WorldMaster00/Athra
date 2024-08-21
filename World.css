@@ -182,13 +182,25 @@ header {
     padding: 10vh 2%;
   }
 
-  .P1, .C1, .P3 {
+  .C1, .P3 {
     width: 90%;
     left: 5%;
     font-size: 1rem;
   }
 
   .P2 {
+    bottom: 50%; /* Align it at the bottom of the screen */
+    top: 0;
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust to center horizontally */
+    width: 90%; /* Adjust width to fit mobile screens */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100%; /* Make it take up the full height */
+  }
+
+  .P1, C4 {
     bottom: 50%; /* Align it at the bottom of the screen */
     top: 0;
     left: 50%; /* Center it horizontally */
