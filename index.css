@@ -1,3 +1,4 @@
+/* General Reset */
 html, body {
   margin: 0;
   padding: 0;
@@ -7,6 +8,7 @@ html, body {
   cursor: url(Cursor.png), auto;
 }
 
+/* Background container */
 .background-container {
   min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
   background-image: url(Background1.jpg);
@@ -19,10 +21,12 @@ html, body {
   align-items: center;
 }
 
+/* General box sizing */
 * {
   box-sizing: border-box;
 }
 
+/* Font and text styles */
 li, a, button {
   font-family: "Cinzel Decorative", cursive;
   font-weight: 500;
@@ -32,26 +36,11 @@ li, a, button {
   cursor: url(Cursor.png), auto;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 5%;
-  border-bottom: 1px solid #F4DA65;
-  background-color: #30302F;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  cursor: url(Cursor.png), auto;
-}
-
-/* General header styling */
+/* Header container styling */
 .header-container {
   display: flex;
-  justify-content: space-between; /* Space out items equally */
-  align-items: center; /* Vertically center items */
-  flex-wrap: nowrap; /* Prevent wrapping on larger screens */
+  align-items: center;
+  justify-content: space-between; /* Space items out horizontally */
   padding: 10px 5%;
   border-bottom: 1px solid #F4DA65;
   background-color: #30302F;
@@ -61,51 +50,16 @@ header {
   z-index: 1000;
 }
 
-/* Ensure logo and CTA button are aligned properly */
+/* Logo styling */
 .logo {
-  margin-right: 20px; /* Space out from dropdowns and CTA */
+  margin-right: 20px; /* Space between logo and nav */
 }
 
-.cta {
-  margin-left: auto; /* Push CTA button to the right */
-}
-
-/* Nav Container Flexbox */
+/* Navigation container */
 .nav-container {
   display: flex;
   gap: 10px; /* Space between dropdowns */
-}
-
-.nav_links {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.nav_links li {
-  padding: 0 10px;
-}
-
-#Btn1, #Btn2, #Btn3, #Btn4 {
-  border: none;
-  padding: 10px 20px;
-  background-color: #30302F;
-  margin: 0 10px;
-}
-
-#Btn5 {
-  padding: 9px 25px;
-  background: rgba(84, 61, 175, 1);
-  border: none;
-  border-radius: 50px;
-  cursor: url(Cursor.png), auto;
-  transition: all 0.3s ease;
-  margin: 0 15px;
-}
-
-#Btn5:hover {
-  background: rgba(84, 61, 175, 0.8);
+  align-items: center; /* Vertically center items */
 }
 
 /* Dropdown Button */
@@ -118,21 +72,21 @@ header {
   cursor: url(Cursor.png), auto;
 }
 
-/* The container <div> - needed to position the dropdown content */
+/* Dropdown container */
 .dropdown {
   position: relative;
   display: inline-block;
-  z-index: 1000;
+  z-index: 1000; /* Ensure dropdown is above other elements */
 }
 
 /* Dropdown Content */
 .dropdown-content {
-  display: none;
+  display: none; /* Hide by default */
   position: absolute;
   background-color: #30302F;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1001;
+  z-index: 1001; /* Ensure dropdown content is above everything */
   border: 1px solid #F4DA65;
 }
 
@@ -155,6 +109,11 @@ header {
   display: block;
 }
 
+/* CTA button styling */
+.cta {
+  margin-left: auto; /* Push CTA button to the right */
+}
+
 /* Main Content Container */
 .main-content {
   padding-top: 60px; /* Adjust this value to match the height of your header */
@@ -163,6 +122,7 @@ header {
   height: 100%;
 }
 
+/* Background and content styling */
 .B1, .B2 {
   background-color: transparent;
   color: #F4DA65;
@@ -210,40 +170,34 @@ header {
   font-size: 1rem; 
 }
 
-
-
 /* Media Queries for Mobile */
 @media (max-width: 1080px) {
-  header {
-    flex-direction: column;
-    padding: 10px;
-  }
-  
-  .nav_links {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  .header-container {
+    flex-direction: row; /* Ensure items stay in a row on mobile */
+    padding: 10px; /* Adjust padding for mobile */
   }
 
-  #Btn1, #Btn2, #Btn3, #Btn4 {
-    margin: 5px;
+  .nav-container {
+    flex-wrap: nowrap; /* Prevent wrapping */
+    justify-content: flex-start; /* Align items to the left */
+    gap: 10px; /* Maintain space between dropdowns */
   }
 
-  #Btn5 {
-    margin: 5px;
+  .logo {
+    margin-right: 20px; /* Maintain spacing */
   }
 
-  .B1, .B2 {
-    padding: 10vh 2%;
+  .cta {
+    margin-left: auto; /* Keep CTA button aligned */
   }
 
-  .P1, .C1, .P3 {
+  .P1, .P3 {
     width: 90%;
     left: 5%;
     font-size: 1rem;
   }
 
-.P2 {
+  .P2 {
     font-size: 1.5rem;
     width: 90%;
     top: 30%;
@@ -254,3 +208,4 @@ header {
     font-size: 1.5rem;
   }
 }
+
