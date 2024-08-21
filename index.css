@@ -183,43 +183,5 @@ li, a, button {
   text-align: center;
   font-size: 1rem; 
 }
-
-/* Media Queries for Mobile */
-@media (max-width: 1080px) {
-  .header-container {
-    flex-direction: row; /* Ensure items stay in a row on mobile */
-    padding: 10px; /* Adjust padding for mobile */
-  }
-
-  .nav-container {
-    flex-wrap: nowrap; /* Prevent wrapping */
-    justify-content: flex-start; /* Align items to the left */
-    gap: 10px; /* Maintain space between dropdowns */
-  }
-
-  .logo {
-    margin-right: 20px; /* Maintain spacing */
-  }
-
-  .cta {
-    margin-left: auto; /* Keep CTA button aligned */
-  }
-
-  .P1, .P3 {
-    width: 100%;
-    left: 10%;
-    font-size: 1rem;
-  }
-
-  .P2 {
-    font-size: 1.5rem;
-    width: 100%;
-    top: 30%;
-  }
-  
-  .P1 {
-    top: 30%;
-    font-size: 1.5rem;
-  }
 }
 
