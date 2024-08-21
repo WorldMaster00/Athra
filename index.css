@@ -4,6 +4,8 @@ html, body {
   padding: 0;
   height: 100%; /* Ensures body and html take up the full viewport height */
   overflow: hidden; /* Prevent scrolling */
+  font-family: 'Cinzel Decorative', cursive;
+  cursor: url(Cursor.png), auto;
 }
 
 /* Background container */
