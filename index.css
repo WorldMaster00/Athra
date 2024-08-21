@@ -3,6 +3,8 @@ html, body {
   padding: 0;
   height: 100%; /* Ensures body and html take up the full viewport height */
   overflow: hidden; /* Prevent scrolling */
+  font-family: 'Cinzel Decorative', cursive;
+  cursor: url(Cursor.png), auto;
 }
 
 .background-container {
@@ -220,10 +222,12 @@ header {
     font-size: 1.5rem;
     width: 90%;
     top: 30%;
+    font-weight: normal;
   }
   
   .P1 {
     top: 30%;
     font-size: 1.5rem;
+    font-weight: normal;
   }
 }
