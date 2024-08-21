@@ -1,21 +1,20 @@
 html, body {
-  font-family: 'Cinzel Decorative', cursive;
   margin: 0;
   padding: 0;
-  height: 100%;
-  overflow: hidden;
-  cursor: url(Cursor.png), auto;
-  overflow-y: hidden; /* Prevent vertical scrolling */
+  height: 100%; /* Ensures body and html take up the full viewport height */
+  overflow: hidden; /* Prevent scrolling */
 }
 
-/* New Background Container */
 .background-container {
+  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
   background-image: url(Background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  padding-top: 150px; /* This padding now affects the background */
-  min-height: 100vh; /* Ensures the container covers the full viewport height */
+  background-position: center 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
@@ -134,6 +133,7 @@ header {
   padding-top: 60px; /* Adjust this value to match the height of your header */
   min-height: 100vh;
   color: #F4DA65;
+  height: 100%;
 }
 
 .B1, .B2 {
