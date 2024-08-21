@@ -11,8 +11,8 @@ html, body {
   background-image: url(Background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 20px;
-  padding-top: 100px; /* This padding now affects the background */
+  background-position: center;
+  padding-top: 150px; /* This padding now affects the background */
   min-height: 100vh; /* Ensures the container covers the full viewport height */
 }
 
