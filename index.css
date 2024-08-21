@@ -217,14 +217,9 @@ li, a, button {
   }
 
   .P3 {
-  background-color: transparent;
-  position: absolute;
-  width: 100px;
   top: 50px;
-  left: 20px;
-  text-align: left;
-  font-size: 1rem; 
-  color: #F4DA65;
+  left: 30px;
 }
+  
 }
 
