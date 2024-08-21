@@ -46,9 +46,34 @@ header {
   cursor: url(Cursor.png), auto;
 }
 
+/* General header styling */
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Space out items equally */
+  align-items: center; /* Vertically center items */
+  flex-wrap: nowrap; /* Prevent wrapping on larger screens */
+  padding: 10px 5%;
+  border-bottom: 1px solid #F4DA65;
+  background-color: #30302F;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Ensure logo and CTA button are aligned properly */
 .logo {
-  margin-right: 20px;
-  max-width: 150px;
+  margin-right: 20px; /* Space out from dropdowns and CTA */
+}
+
+.cta {
+  margin-left: auto; /* Push CTA button to the right */
+}
+
+/* Nav Container Flexbox */
+.nav-container {
+  display: flex;
+  gap: 10px; /* Space between dropdowns */
 }
 
 .nav_links {
