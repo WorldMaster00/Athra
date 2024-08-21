@@ -168,7 +168,7 @@ li, a, button {
   background-color: transparent;
   position: absolute;
   width: 80%;
-  top: 30%;
+  top: 20%;
   left: 10%;
   text-align: center;
   font-size: 1.5rem; 
@@ -178,8 +178,8 @@ li, a, button {
   background-color: transparent;
   position: absolute;
   width: 80%;
-  top: 40%;
-  left: 50%;
+  top: 20%;
+  left: 10%;
   text-align: center;
   font-size: 1rem; 
 }
@@ -205,20 +205,20 @@ li, a, button {
     margin-left: auto; /* Keep CTA button aligned */
   }
 
-  .P1, .P3 {
-    width: 90%;
-    left: 5%;
+   .P1, .P3 {
+    width: 100%;
+    left: 10%;
     font-size: 1rem;
   }
 
   .P2 {
     font-size: 1.5rem;
-    width: 90%;
+    width: 100%;
     top: 30%;
   }
   
   .P1 {
-    top: 10%;
+    top: 30%;
     font-size: 1.5rem;
   }
 }
