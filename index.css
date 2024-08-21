@@ -192,7 +192,7 @@ li, a, button {
   }
 
    .background-container {
-    background-position: 60% center; /* Shift background to the right only on mobile */
+    background-position: center 60%; /* Shift background to the right only on mobile */
   }
 
   .nav-container {
@@ -221,7 +221,7 @@ li, a, button {
   }
 
   .P2 {
-    top: 40%; /* Move the text lower to avoid overlap */
+    top: 30%; /* Move the text lower to avoid overlap */
     width: 90%; /* Slightly reduce width to prevent overflow */
     left: 5%;   /* Center the text by adjusting left */
     font-size: 1.5rem; /* Adjust font-size for readability */
