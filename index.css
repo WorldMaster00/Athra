@@ -171,15 +171,7 @@ header {
   font-size: 1.5rem; 
 }
 
-.P2 {
-  background: transparent;
-  position: absolute;
-  font-size: 1rem; 
-  text-align: center;
-  width: 80%;
-  left: 10%;
-  bottom: 5%;
-}
+
 
 /* Media Queries for Mobile */
 @media (max-width: 768px) {
@@ -212,16 +204,9 @@ header {
     font-size: 1rem;
   }
 
-  .P2 {
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 10%;
+.P2 {
     font-size: 1.5rem;
+    width: 90%;
   }
   
   .P1 {
