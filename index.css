@@ -207,13 +207,13 @@ li, a, button {
 
   .P1, .P3 {
     width: 90%;
-    left: 5%;
+    left: 10%;
     font-size: 1rem;
   }
 
   .P2 {
     font-size: 1.5rem;
-    width: 90%;
+    width: 100%;
     top: 30%;
   }
   
