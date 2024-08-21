@@ -3,9 +3,11 @@ html, {
   margin: 0;
   height: 100%;
   overflow: hidden;
+  background-image: url(Background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 20px;
 }
 
 body {
@@ -13,11 +15,9 @@ body {
   margin: 0;
   height: 100%;
   overflow: hidden;
-  background-image: url(Background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 200px;
 
 * {
   box-sizing: border-box;
