@@ -188,7 +188,7 @@ header {
 
 
 /* Media Queries for Mobile */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   header {
     flex-direction: column;
     padding: 10px;
