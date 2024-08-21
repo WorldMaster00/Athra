@@ -198,7 +198,7 @@ header {
   }
 
   .P2 {
-    bottom: 0; /* Align it at the bottom of the screen */
+    bottom: 50%; /* Align it at the bottom of the screen */
     top: 0;
     left: 50%; /* Center it horizontally */
     transform: translateX(-50%); /* Adjust to center horizontally */
