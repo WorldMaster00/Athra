@@ -221,6 +221,7 @@ header {
     align-items: center; /* Center content vertically */
     position: absoulte;
     bottom: 50%;
+    font-size: 1.5rem;
   }
   
 .P1 {
