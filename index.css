@@ -1,12 +1,37 @@
+<body>
+  <div class="background-container">
+    <header>
+      <!-- Your header content here -->
+    </header>
+
+    <div class="main-content">
+      <!-- Your main content here -->
+    </div>
+  </div>
+</body>
+CSS:
+css
+Copy code
 html, body {
   font-family: 'Cinzel Decorative', cursive;
   margin: 0;
   height: 100%;
   overflow: hidden;
+  cursor: url(Cursor.png), auto;
+}
+
+body {
+   padding: 0; /* Removed background image and padding */
+}
+
+/* New Background Container */
+.background-container {
+  background-image: url(Background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  cursor: url(Cursor.png), auto;
+  padding-top: 100px; /* This padding now affects the background */
+  min-height: 100vh; /* Ensures the container covers the full viewport height */
 }
 
 * {
@@ -29,7 +54,7 @@ header {
   padding: 10px 5%;
   border-bottom: 1px solid #F4DA65;
   background-color: #30302F;
-  position: fixed; /* Fixes the header to the top */
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -87,17 +112,17 @@ header {
 .dropdown {
   position: relative;
   display: inline-block;
-  z-index: 1000; /* Ensure the dropdown is above other elements */
+  z-index: 1000;
 }
 
 /* Dropdown Content */
 .dropdown-content {
-  display: none; /* Hide by default */
+  display: none;
   position: absolute;
   background-color: #30302F;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1001; /* Ensure dropdown content is above everything */
+  z-index: 1001;
   border: 1px solid #F4DA65;
 }
 
@@ -120,28 +145,16 @@ header {
   display: block;
 }
 
-
 /* Main Content Container */
 .main-content {
   padding-top: 60px; /* Adjust this value to match the height of your header */
-  min-height: 100vh; /* Ensure it covers the viewport height */
+  min-height: 100vh;
   color: #F4DA65;
 }
 
 .B1, .B2 {
   background-color: transparent;
   color: #F4DA65;
-}
-
-.C3 {
-  overflow: hidden;
-  background-color: transparent;
-  background-image: url(Background1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: auto; 
-  length: auto;
 }
 
 .C1 {
@@ -164,7 +177,6 @@ header {
   text-align: left;
   font-size: 1rem; 
   color: #F4DA65;
-  
 }
 
 .P1 {
@@ -184,7 +196,7 @@ header {
   text-align: center;
   width: 80%;
   left: 10%;
-  bottom: 5%; /* Default position for larger screens */
+  bottom: 5%;
 }
 
 /* Media Queries for Mobile */
@@ -219,24 +231,19 @@ header {
   }
 
   .P2 {
-    left: 50%; /* Center it horizontally */
-    transform: translateX(-50%); /* Adjust to center horizontally */
-    width: 90%; /* Adjust width to fit mobile screens */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    position: absoulte;
-    bottom: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
     font-size: 1.5rem;
   }
   
-.P1 {
-  background-color: transparent;
-  position: absolute;
-  width: 80%;
-  top: 30%;
-  left: 10%;
-  text-align: center;
-  font-size: 1.5rem; 
+  .P1 {
+    top: 30%;
+    font-size: 1.5rem;
   }
 }
