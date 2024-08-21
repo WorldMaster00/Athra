@@ -156,12 +156,13 @@ li, a, button {
 .P3 {
   background-color: transparent;
   position: absolute;
-  width: 300px;
+  width: 300px; /* Keep this for smaller screens */
   top: 50px;
-  left: 20px;
+  left: 30px; /* Increase the left value to create a gap */
   text-align: left;
   font-size: 1rem; 
   color: #F4DA65;
+  padding-left: 10px; /* Add some padding to the left */
 }
 
 .P1 {
@@ -206,8 +207,8 @@ li, a, button {
   }
 
    .P1, .P3 {
-    width: 100%;
-    left: 5%;
+    width: 80%;
+    left: 10%;
     font-size: 1.5rem;
   }
 
@@ -222,6 +223,12 @@ li, a, button {
     left: 5%;   /* Center the text by adjusting left */
     font-size: 1.5rem; /* Adjust font-size for readability */
     max-width: 100%; /* Ensure it doesn’t exceed the viewport width */
+  }
+  
+  .P3 {
+    width: 400px; /* Increase width for larger screens */
+    left: 40px; /* Create more gap on larger screens */
+    padding-left: 15px; /* Add more padding */
   }
 }
 
