@@ -200,7 +200,7 @@ header {
     height: 100%; /* Make it take up the full height */
   }
 
-  .P1, C4 {
+  .P1, .C4 {
     bottom: 50%; /* Align it at the bottom of the screen */
     top: 0;
     left: 50%; /* Center it horizontally */
