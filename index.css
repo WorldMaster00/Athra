@@ -9,11 +9,6 @@ html, body {
   cursor: url(Cursor.png), auto;
 }
 
-body {
-   background-image: url(Background1.jpg);
-   padding-top: 100px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -136,6 +131,17 @@ header {
 .B1, .B2 {
   background-color: transparent;
   color: #F4DA65;
+}
+
+.B1 {
+  overflow: hidden;
+  background-color: transparent;
+  color: #F4DA65;
+  font-size: 35px;
+  background-image: url(Background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .C1 {
