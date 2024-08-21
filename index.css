@@ -17,6 +17,7 @@ body {
   background-size: contain;
   background-position: center;
   background-image: url(Background1.jpg);
+  padding-top: 100px;
 
 * {
   box-sizing: border-box;
