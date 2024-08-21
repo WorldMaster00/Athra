@@ -1,17 +1,3 @@
-<body>
-  <div class="background-container">
-    <header>
-      <!-- Your header content here -->
-    </header>
-
-    <div class="main-content">
-      <!-- Your main content here -->
-    </div>
-  </div>
-</body>
-CSS:
-css
-Copy code
 html, body {
   font-family: 'Cinzel Decorative', cursive;
   margin: 0;
