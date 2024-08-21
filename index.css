@@ -133,15 +133,15 @@ header {
   color: #F4DA65;
 }
 
-.B1 {
+.C3 {
   overflow: hidden;
   background-color: transparent;
-  color: #F4DA65;
-  font-size: 35px;
   background-image: url(Background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  width: auto; 
+  length: auto;
 }
 
 .C1 {
