@@ -213,14 +213,12 @@ header {
   }
 
   .P2 {
-    top: 0;
     left: 50%; /* Center it horizontally */
     transform: translateX(-50%); /* Adjust to center horizontally */
     width: 90%; /* Adjust width to fit mobile screens */
     display: flex;
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
-    height: 100%; /* Make it take up the full height */
   }
 .P1 {
   background-color: transparent;
@@ -230,5 +228,5 @@ header {
   left: 10%;
   text-align: center;
   font-size: 1.5rem; 
-}
+  }
 }
