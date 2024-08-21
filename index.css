@@ -1,4 +1,4 @@
-html, {
+html, body {
   font-family: 'Cinzel Decorative', cursive;
   margin: 0;
   height: 100%;
@@ -6,18 +6,9 @@ html, {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: url(Background1.jpg);
 }
 
-body {
-  font-family: 'Cinzel Decorative', cursive;
-  margin: 0;
-  height: 100%;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-image: url(Background1.jpg);
-  padding-top: 100px;
 
 * {
   box-sizing: border-box;
