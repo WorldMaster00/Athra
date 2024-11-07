@@ -2,19 +2,19 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
-  overflow-x: hidden; /* Allow vertical scrolling but prevent horizontal */
+  height: 100%; /* Ensures body and html take up the full viewport height */
+  overflow: hidden; /* Prevent scrolling */
   font-family: 'Cinzel Decorative', cursive;
   cursor: url(Cursor.png), auto;
 }
 
 /* Background container */
 .background-container {
-  min-height: 100vh;
+  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
   background-image: url(Background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +40,7 @@ li, a, button {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* Space items out horizontally */
   padding: 10px 5%;
   border-bottom: 1px solid #F4DA65;
   background-color: #30302F;
@@ -52,14 +52,14 @@ li, a, button {
 
 /* Logo styling */
 .logo {
-  margin-right: 20px;
+  margin-right: 20px; /* Space between logo and nav */
 }
 
 /* Navigation container */
 .nav-container {
   display: flex;
-  gap: 10px;
-  align-items: center;
+  gap: 10px; /* Space between dropdowns */
+  align-items: center; /* Vertically center items */
 }
 
 #Btn5 {
@@ -90,17 +90,17 @@ li, a, button {
 .dropdown {
   position: relative;
   display: inline-block;
-  z-index: 1000;
+  z-index: 1000; /* Ensure dropdown is above other elements */
 }
 
 /* Dropdown Content */
 .dropdown-content {
-  display: none;
+  display: none; /* Hide by default */
   position: absolute;
   background-color: #30302F;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1001;
+  z-index: 1001; /* Ensure dropdown content is above everything */
   border: 1px solid #F4DA65;
 }
 
@@ -113,22 +113,24 @@ li, a, button {
   background-color: #30302F;
 }
 
+/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: rgba(84, 61, 175, 0.8);
 }
 
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 /* CTA button styling */
 .cta {
-  margin-left: auto;
+  margin-left: auto; /* Push CTA button to the right */
 }
 
 /* Main Content Container */
 .main-content {
-  padding-top: 60px;
+  padding-top: 60px; /* Adjust this value to match the height of your header */
   min-height: 100vh;
   color: #F4DA65;
   height: 100%;
@@ -154,13 +156,13 @@ li, a, button {
 .P3 {
   background-color: transparent;
   position: absolute;
-  width: 300px;
+  width: 300px; /* Keep this for smaller screens */
   top: 50px;
-  left: 20px;
+  left: 20px; /* Increase the left value to create a gap */
   text-align: left;
   font-size: 1rem; 
   color: #F4DA65;
-  padding-left: 10px;
+  padding-left: 10px; /* Add some padding to the left */
 }
 
 .P1 {
@@ -183,55 +185,50 @@ li, a, button {
   font-size: 1rem; 
 }
 
-/* Media Queries for responsiveness */
+/* Media Queries for Mobile */
 @media (max-width: 1080px) {
   .header-container {
-    padding: 10px;
+    flex-direction: row; /* Ensure items stay in a row on mobile */
+    padding: 10px; /* Adjust padding for mobile */
   }
 
   .nav-container {
-    flex-wrap: wrap;
-    gap: 5px;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    justify-content: flex-start; /* Align items to the left */
+    gap: 10px; /* Maintain space between dropdowns */
   }
 
   .logo {
-    margin-right: 10px;
+    margin-right: 20px; /* Maintain spacing */
   }
 
-  .P1, .P2 {
-    width: 90%;
-    left: 5%;
-    font-size: 1.2rem;
-    text-align: center;
+  .cta {
+    margin-left: auto; /* Keep CTA button aligned */
   }
 
-  .P3 {
-    width: 250px;
-    left: 10px;
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav-container, .header-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-  }
-
-  .P1 {
-    top: 10%;
+   .P1, .P3 {
+    width: 80%;
+    left: 10%;
     font-size: 1.5rem;
   }
 
-  .P2 {
+  .P1 {
     top: 20%;
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
+  .P2 {
+    top: 30%; /* Move the text lower to avoid overlap */
+    width: 90%; /* Slightly reduce width to prevent overflow */
+    left: 5%;   /* Center the text by adjusting left */
+    font-size: 1.5rem; /* Adjust font-size for readability */
+    max-width: 100%; /* Ensure it doesn’t exceed the viewport width */
+  }
+  
   .P3 {
-    width: 90%;
-    left: 5%;
+    width: 400px; /* Increase width for larger screens */
+    left: 40px; /* Create more gap on larger screens */
+    padding-left: 15px; /* Add more padding */
   }
 }
 
