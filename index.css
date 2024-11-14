@@ -1,1 +1,249 @@
-body{background:var(--background-terror) url(../../images/marianna-body-background.jpg)!important}.container{max-width:1280px!important}.global-top-navbar{background:#0d0f11!important}h1 small{font-size:65%;font-weight:800;display:block;color:#fff;font-weight:bolder}h2{font-size:32px;color:#fff;line-height:1.2em}h3{font-size:22px;color:#fff;font-weight:700}h4{color:#afdbe3;line-height:1.4em}p{font-size:15px}p a{font-weight:700}.text-double{font-size:2em}#page-wrapper{padding:0!important}.wrapper-content{padding:20px 0 40px}.wrapper-header{min-height:500px;max-height:500px}.card-img-wrap{background-attachment:initial;background-size:cover!important;background-position:center top;opacity:.9}.wrapper-header .masthead{position:absolute;top:20%;left:5%;width:90%}.masthead .btn{background-color:#ed5564;border-color:#5a400a;border-bottom:5px #bb4d58 solid;font-size:1.3em;font-weight:700;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;padding:10px}.masthead .btn-danger:hover,.masthead .btn-danger:focus,.masthead .btn-danger.focus{color:#fff;background-color:#d42536!important;border-color:#dc3b4b!important}.wrapper-header h1{font-weight:800;position:relative;bottom:initial;left:initial;font-size:4em;margin:0;text-shadow:6px 0 10px #000}.wrapper-header .presentation{position:absolute;width:60%;top:20%;right:5%;max-width:950px}#testimonials{min-height:450px;background-size:cover;opacity:1;background-color:#000;margin-bottom:20px;position:relative}.testimonial-text{color:#fff;font-weight:700;font-family:georgia,"serif";font-size:2.5em;text-align:right;text-shadow:1px 3px 5px #000;font-style:italic;padding:20px}.testimonial-author{font-size:.5em;line-height:.5em}@media(max-width:1440px){.wrapper-header .presentation{width:50%;top:45%}}@media(max-width:1024px){.wrapper-header .presentation{display:none}.nav-secondary{display:none!important}.testimonial-text{max-width:90%;font-size:2em}}@media(max-width:768px){.masthead .btn{display:block}}@media(max-width:550px){.wrapper-header h1{font-size:3.5em}}@media(max-width:400px){.wrapper-header h1{font-size:3em}}#page-wrapper{margin:0}.navbar-static-side,.navbar-minimalize{display:none}.typeahead__container{position:relative;margin-left:20px;font:1rem Lato,Helvetica Neue,Arial,Helvetica,sans-serif}.navbar-header{margin-left:20px}.gray-bg,.white-bg{background-color:#04172c}.ibox-content{background-color:#1d1d1d;color:#8f8f8f;border-color:#000;border-radius:8px}a{color:#f2f5f7;cursor:pointer}a:hover{color:#fff;text-decoration:underline}.header-navigation.nav>li>a,a.nav-link.header-nav{color:#d1eaff}.text-danger{color:#65bbe4!important}.masthead .btn{background-color:#0497ff;border-color:#cbe9ff;border-bottom:5px #0d3b5d solid}.footer{background:none repeat scroll 0 0 #060c13;border-top:1px solid #32649a}.btn-primary{color:#fff;font-weight:700;background-color:#084d7d;border-color:var(--primary);font-size:1.13em}#login-button{color:#fff!important;font-weight:700}.header-navigation.nav>li>a,a.nav-link.header-nav{color:#fff}.form-control:focus,.single-line:focus{border-color:#000!important;background-color:#3d3d3d!important;color:#fff!important}
+body {
+    background: var(--background-terror) url('../../images/marianna-body-background.jpg') !important;
+}
+
+.container {
+    max-width: 1280px !important;
+}
+
+.global-top-navbar {
+    background: #0d0f11 !important;
+}
+
+h1 small {
+    font-size: 65%;
+    font-weight: 800;
+    /* line-height: 16em; */
+    display: block;
+    color: white;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    line-height: 1.2em;
+}
+
+h3 {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+h4 {
+    color: #afdbe3;
+    line-height: 1.4em;
+}
+
+p {
+    font-size: 15px;
+}
+
+p a {
+    font-weight: bold;
+}
+
+ .text-double {	
+    font-size: 2em;	
+}	
+
+ #page-wrapper {	
+	padding: 0 !important;	
+}	
+
+ .wrapper-content {	
+	padding: 20px 0px 40px;	
+}	
+
+ .wrapper-header {	
+    min-height: 500px;	
+    max-height: 500px;	
+}	
+
+ .card-img-wrap {	
+    background-attachment: initial;	
+    background-size: cover !important;	
+    background-position: center top;
+    opacity: 0.9;	
+}	
+
+ .wrapper-header .masthead {	
+	position: absolute;	
+	top: 20%;	
+	left: 5%;	
+    width: 90%;	
+}	
+
+ .masthead .btn {	
+    background-color: #ed5564;	
+    border-color: #5a400a;	
+    border-bottom: 5px #bb4d58 solid;	
+    font-size: 1.3em;	
+    font-weight: bold;	
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;	
+    padding: 10px;
+}	
+
+
+ .masthead  .btn-danger:hover, .masthead  .btn-danger:focus, .masthead  .btn-danger.focus {	
+    color: #fff;	
+    background-color: #d42536 !important;	
+    border-color: #dc3b4b !important;	
+}	
+
+ .wrapper-header h1 {	
+    font-weight: 800;	
+    position: relative;	
+    bottom: initial;	
+    left: initial;	
+    font-size: 4em;	
+	margin: 0;	
+    text-shadow: 6px 0px 10px #000000;	
+}	
+
+ .wrapper-header .presentation {	
+    position: absolute;	
+    width: 60%;	
+    top: 20%;	
+    right: 5%;	
+    max-width: 950px;	
+}	
+
+
+ #testimonials {	
+	min-height: 450px;
+    background-size: cover;	
+    opacity: 1;	
+    background-color: black;	
+    margin-bottom: 20px;	
+    position: relative;	
+}
+
+.testimonial-text {
+    color: white;
+    font-weight: bold;
+    font-family: "Georgia", "Serif";
+    font-size: 2.5em;
+    text-align: right;
+    text-shadow: 1px 3px 5px #000000;
+    font-style: italic;
+    padding: 20px;
+}
+
+.testimonial-author {	
+    font-size: 0.5em;	
+    line-height: 0.5em;	
+}	
+
+
+ @media (max-width: 1440px ) {	
+	.wrapper-header .presentation {	
+		width: 50%;	
+		top: 45%;	
+	}	
+}	
+@media (max-width: 1024px ) {	
+	.wrapper-header .presentation {	
+		display: none;	
+	}	
+	.nav-secondary {	
+		display: none !important;	
+	}	
+	.testimonial-text {	
+		max-width: 90%;	
+        font-size: 2em;	
+	}	
+}	
+@media (max-width: 768px ) {	
+	.masthead .btn {	
+		display: block;	
+	}	
+}	
+@media (max-width: 550px ) {	
+	.wrapper-header h1 {	
+	    font-size: 3.5em;	
+	}	
+}	
+@media (max-width: 400px ) {	
+	.wrapper-header h1 {	
+	    font-size: 3em;	
+	}	
+}	
+#page-wrapper {	
+	margin: 0;	
+}	
+
+ .navbar-static-side, .navbar-minimalize {	
+	display: none;	
+}
+
+
+ .typeahead__container {
+     position: relative;
+     margin-left: 20px;
+     font: 1rem Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+ }
+
+ .navbar-header {
+     margin-left: 20px;
+ }
+
+
+.gray-bg, .white-bg {
+    background-color: #04172c;
+}
+.ibox-content {
+    background-color: #1d1d1d;
+    color: #8f8f8f;
+    border-color: #000000;
+    border-radius: 8px;
+}
+a {
+    color: #f2f5f7;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.header-navigation.nav > li > a, a.nav-link.header-nav {
+    color: #d1eaff;
+}
+.text-danger {
+    color: #65bbe4 !important;
+}
+
+.masthead .btn {
+    background-color: #0497ff;
+    border-color: #cbe9ff;
+    border-bottom: 5px #0d3b5d solid;
+}
+
+.footer {
+    background: none repeat scroll 0 0 #060c13;
+    border-top: 1px solid #32649a;
+}
+.btn-primary {
+    color: #fff;
+    font-weight: bold;
+    background-color: #084d7d;
+    border-color: var(--primary);
+    font-size: 1.13em;
+}
+
+#login-button {
+    color: white !important;
+    font-weight: bold;
+}
+.header-navigation.nav>li>a, a.nav-link.header-nav {
+    color: #ffffff;
+}
+
+.form-control:focus, .single-line:focus {
+    border-color: #000000 !important;
+    background-color: #3d3d3d !important;
+    color: white !important;
+}
