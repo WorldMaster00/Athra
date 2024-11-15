@@ -10,10 +10,16 @@ font-family: 'Cinzel Decorative', cursive;
 }
 
 .container {
-		margin: 0 auto;
-		max-width: 100%;
-		width: 1400px;
-background-image: url(SwordBackground.jpg);
+  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  background-image: url(SwordBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 	}
 
 	@media screen and (max-width: 1680px) {
