@@ -7,13 +7,13 @@ font-size: 100%;
 vertical-align: baseline;
 font-family: 'Cinzel Decorative', cursive;
   cursor: url(Cursor.png), auto;
+background-image: url(Background1.jpeg);
 }
 
 .container {
 	margin: 0 auto;
 	max-width: 100%;
 	width: 1400px;
-	background-image: url(Background1.jpeg);
 }
 
 	@media screen and (max-width: 1680px) {
