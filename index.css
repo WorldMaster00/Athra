@@ -11,6 +11,7 @@ font-family: 'Cinzel Decorative', cursive;
 
 .container {
   min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
   background-image: url(SwordBackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
