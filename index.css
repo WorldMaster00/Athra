@@ -71,14 +71,29 @@ font-family: 'Cinzel Decorative', cursive;
 	}
 
 @media screen and (max-width: 736px) { /* Adjust for mobile viewport */
-  .container {
-    width: 100vw; /* Full viewport width for mobile */
-    min-height: 100vh; /* Full viewport height for mobile */
-  }
+ .container {
+  min-height: 100vh;
+  background-image: url(SwordBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .header-container {
-    width: 100vw; /* Full viewport width for mobile */
-  }
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #F4DA65;
+  background-color: #30302F;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
 }
 
 /* General box sizing */
