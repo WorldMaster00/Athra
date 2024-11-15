@@ -2709,7 +2709,7 @@ input, select, textarea {
 				}
 
 					#banner header h2 a:hover {
-						border-bottom-color: trans;
+						border-bottom-color: transparent;
 					}
 
 			#banner header .button {
