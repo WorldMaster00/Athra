@@ -95,8 +95,117 @@ font-family: 'Cinzel Decorative', cursive;
   top: 0;
   width: 110%;
   z-index: 1000;
+}	
+}
+
+@media screen and (max-width: 840px) { /* Adjust for mobile viewport */
+ .container {
+  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  background-image: url(SwordBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #F4DA65;
+  background-color: #30302F;
+  position: fixed;
+  top: 0;
+  width: 110%;
+  z-index: 1000;
 }
 }
+
+@media screen and (max-width: 980px) { /* Adjust for mobile viewport */
+ .container {
+  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  background-image: url(SwordBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #F4DA65;
+  background-color: #30302F;
+  position: fixed;
+  top: 0;
+  width: 110%;
+  z-index: 1000;
+}
+}
+
+@media screen and (max-width: 1280px) { /* Adjust for mobile viewport */
+ .container {
+  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  background-image: url(SwordBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #F4DA65;
+  background-color: #30302F;
+  position: fixed;
+  top: 0;
+  width: 110%;
+  z-index: 1000;
+}	
+}
+
+@media screen and (max-width: 1680px) { /* Adjust for mobile viewport */
+ .container {
+  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  background-image: url(SwordBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #F4DA65;
+  background-color: #30302F;
+  position: fixed;
+  top: 0;
+  width: 110%;
+  z-index: 1000;
+}	
+}
+
 
 /* General box sizing */
 * {
