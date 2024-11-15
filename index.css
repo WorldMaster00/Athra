@@ -95,6 +95,21 @@ font-family: 'Cinzel Decorative', cursive;
   top: 0;
   width: 110%;
   z-index: 1000;
+}
+
+.P1, P2, P3. {
+  background-color: transparent;
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }	
 }
 
@@ -123,6 +138,21 @@ font-family: 'Cinzel Decorative', cursive;
   width: 110%;
   z-index: 1000;
 }
+
+.P1, P2, P3. {
+  background-color: transparent;
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
 }
 
 @media screen and (max-width: 980px) { /* Adjust for mobile viewport */
@@ -150,6 +180,21 @@ font-family: 'Cinzel Decorative', cursive;
   width: 110%;
   z-index: 1000;
 }
+
+.P1, P2, P3. {
+  background-color: transparent;
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
 }
 
 @media screen and (max-width: 1280px) { /* Adjust for mobile viewport */
@@ -176,6 +221,21 @@ font-family: 'Cinzel Decorative', cursive;
   top: 0;
   width: 110%;
   z-index: 1000;
+}
+
+.P1, P2, P3. {
+  background-color: transparent;
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }	
 }
 
@@ -203,6 +263,21 @@ font-family: 'Cinzel Decorative', cursive;
   top: 0;
   width: 110%;
   z-index: 1000;
+}
+
+.P1, P2, P3. {
+  background-color: transparent;
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }	
 }
 
