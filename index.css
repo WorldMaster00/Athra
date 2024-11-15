@@ -9,12 +9,24 @@ font-family: 'Cinzel Decorative', cursive;
   cursor: url(Cursor.png), auto;
 
 }
+/* Background container */
+.background-container {
+  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  background-image: url(Background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+		margin: 0 auto;
+		max-width: 100%;
+		width: 1400px;
+	}
 
-.C2 {
-	margin: 0 auto;
-	max-width: 100%;
-	width: 1400px;
-	background-image: url(city.jpg)
 }
 
 	@media screen and (max-width: 1680px) {
