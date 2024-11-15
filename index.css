@@ -241,6 +241,11 @@ li, a, button {
   font-size: 1rem; 
   color: #F4DA65;
   padding-left: 10px; /* Add some padding to the left */
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .P1 {
@@ -251,6 +256,11 @@ li, a, button {
   left: 10%;
   text-align: center;
   font-size: 1.5rem; 
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .P2 {
@@ -260,6 +270,11 @@ li, a, button {
   top: 40%;
   left: 10%;
   text-align: center;
-  font-size: 1rem; 
+  font-size: 1rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
