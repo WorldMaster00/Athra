@@ -73,7 +73,8 @@ font-family: 'Cinzel Decorative', cursive;
 
 @media screen and (max-width: 736px) { /* Adjust for mobile viewport */
  .container {
-  min-height: 100vh;
+  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
+  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
   background-image: url(SwordBackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,7 +83,6 @@ font-family: 'Cinzel Decorative', cursive;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
 }
 
 .header-container {
@@ -93,9 +93,8 @@ font-family: 'Cinzel Decorative', cursive;
   background-color: #30302F;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 110%;
   z-index: 1000;
-  padding-left: 50px; 
 }
 }
 
