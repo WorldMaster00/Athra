@@ -13,7 +13,7 @@ font-family: 'Cinzel Decorative', cursive;
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
-  background-image: url(SwordBackground);
+  background-image: url(SwordBackground.jpg);
 	}
 
 	@media screen and (max-width: 1680px) {
