@@ -71,157 +71,31 @@ font-family: 'Cinzel Decorative', cursive;
 
 	}
 
-@media screen and (max-width: 736px) { /* Adjust for mobile viewport */
- .container {
-  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  background-image: url(SwordBackground.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+@media screen and (max-width: 736px) { /* Target mobile viewports */
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Ensure full width */
+    height: 100vh; /* Ensure full height */
+    overflow-x: hidden; /* Prevent any horizontal overflow */
+  }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #F4DA65;
-  background-color: #30302F;
-  position: fixed;
-  top: 0;
-  width: 110%;
-  z-index: 1000;
-}
+  .container {
+    width: 100vw; /* Full width of the viewport */
+    min-height: 100vh; /* Full height of the viewport */
+    background-image: url(SwordBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; /* Adjust position to move image up */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.P1, P2, P3. {
-  background-color: transparent;
-  position: absolute;
-  width: 80%;
-  top: 40%;
-  left: 10%;
-  text-align: center;
-  font-size: 1rem;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}	
-}
-
-@media screen and (max-width: 840px) { /* Adjust for mobile viewport */
- .container {
-  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  background-image: url(SwordBackground.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #F4DA65;
-  background-color: #30302F;
-  position: fixed;
-  top: 0;
-  width: 110%;
-  z-index: 1000;
-}
-
-.P1, P2, P3. {
-  background-color: transparent;
-  position: absolute;
-  width: 80%;
-  top: 40%;
-  left: 10%;
-  text-align: center;
-  font-size: 1rem;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-}
-
-@media screen and (max-width: 980px) { /* Adjust for mobile viewport */
- .container {
-  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  background-image: url(SwordBackground.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #F4DA65;
-  background-color: #30302F;
-  position: fixed;
-  top: 0;
-  width: 110%;
-  z-index: 1000;
-}
-
-.P1, P2, P3. {
-  background-color: transparent;
-  position: absolute;
-  width: 80%;
-  top: 40%;
-  left: 10%;
-  text-align: center;
-  font-size: 1rem;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-}
-
-@media screen and (max-width: 1280px) { /* Adjust for mobile viewport */
- .container {
-  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  background-image: url(SwordBackground.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #F4DA65;
-  background-color: #30302F;
-  position: fixed;
-  top: 0;
-  width: 110%;
-  z-index: 1000;
-}
+  .header-container {
+    width: 100vw; /* Ensure the header spans the full width */
+  }
 
 .P1, P2, P3. {
   background-color: transparent;
@@ -239,31 +113,157 @@ font-family: 'Cinzel Decorative', cursive;
 }	
 }
 
-@media screen and (max-width: 1680px) { /* Adjust for mobile viewport */
- .container {
-  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  min-length: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  background-image: url(SwordBackground.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-width: 840px) { /* Target mobile viewports */
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Ensure full width */
+    height: 100vh; /* Ensure full height */
+    overflow-x: hidden; /* Prevent any horizontal overflow */
+  }
+
+  .container {
+    width: 100vw; /* Full width of the viewport */
+    min-height: 100vh; /* Full height of the viewport */
+    background-image: url(SwordBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; /* Adjust position to move image up */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-container {
+    width: 100vw; /* Ensure the header spans the full width */
+  }
+
+.P1, P2, P3. {
+  background-color: transparent;
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}	
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #F4DA65;
-  background-color: #30302F;
-  position: fixed;
-  top: 0;
-  width: 110%;
-  z-index: 1000;
+@media screen and (max-width: 980px) { /* Target mobile viewports */
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Ensure full width */
+    height: 100vh; /* Ensure full height */
+    overflow-x: hidden; /* Prevent any horizontal overflow */
+  }
+
+  .container {
+    width: 100vw; /* Full width of the viewport */
+    min-height: 100vh; /* Full height of the viewport */
+    background-image: url(SwordBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; /* Adjust position to move image up */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-container {
+    width: 100vw; /* Ensure the header spans the full width */
+  }
+
+.P1, P2, P3. {
+  background-color: transparent;
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}	
 }
+
+@media screen and (max-width: 1280px) { /* Target mobile viewports */
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Ensure full width */
+    height: 100vh; /* Ensure full height */
+    overflow-x: hidden; /* Prevent any horizontal overflow */
+  }
+
+  .container {
+    width: 100vw; /* Full width of the viewport */
+    min-height: 100vh; /* Full height of the viewport */
+    background-image: url(SwordBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; /* Adjust position to move image up */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-container {
+    width: 100vw; /* Ensure the header spans the full width */
+  }
+
+.P1, P2, P3. {
+  background-color: transparent;
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  font-size: 1rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}	
+}
+
+@media screen and (max-width: 1680px) { /* Target mobile viewports */
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Ensure full width */
+    height: 100vh; /* Ensure full height */
+    overflow-x: hidden; /* Prevent any horizontal overflow */
+  }
+
+  .container {
+    width: 100vw; /* Full width of the viewport */
+    min-height: 100vh; /* Full height of the viewport */
+    background-image: url(SwordBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; /* Adjust position to move image up */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-container {
+    width: 100vw; /* Ensure the header spans the full width */
+  }
 
 .P1, P2, P3. {
   background-color: transparent;
