@@ -81,6 +81,7 @@ font-family: 'Cinzel Decorative', cursive;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
 }
 
 .header-container {
@@ -93,6 +94,7 @@ font-family: 'Cinzel Decorative', cursive;
   top: 0;
   width: 100%;
   z-index: 1000;
+  padding-left: 50px; 
 }
 }
 
@@ -225,7 +227,7 @@ li, a, button {
   left: 0;
   padding: 20px;
   text-align: left;
-  color: #D4A31C;
+  color: #F4DA65;
 }
 
 .P3 {
