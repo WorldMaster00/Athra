@@ -1,25 +1,67 @@
 /* General Reset */
 html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%; /* Ensures body and html take up the full viewport height */
-  overflow: hidden; /* Prevent scrolling */
-  font-family: 'Cinzel Decorative', cursive;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+font-family: 'Cinzel Decorative', cursive;
   cursor: url(Cursor.png), auto;
 }
 
-/* Background container */
-.background-container {
-  min-height: 100vh; /* Ensures the container always takes up at least 100% of the viewport height */
-  background-image: url(Background1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.container {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1400px;
 }
+
+	@media screen and (max-width: 1680px) {
+
+		.container {
+			width: 1200px;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.container {
+			width: 960px;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.container {
+			width: 95%;
+		}
+
+	}
+
+	@media screen and (max-width: 840px) {
+
+		.container {
+			width: 95%;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.container {
+			width: 90%;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.container {
+			width: 100%;
+		}
+
+	}
 
 /* General box sizing */
 * {
