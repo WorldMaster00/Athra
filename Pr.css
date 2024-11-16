@@ -125,7 +125,7 @@ font-family: 'Cinzel Decorative', cursive;
   .container {
     width: 100vw; /* Full width of the viewport */
     min-height: 100vh; /* Full height of the viewport */
-    background-image: url(SwordBackground.jpg);
+    background-image: url(titan.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top; /* Adjust position to move image up */
@@ -167,7 +167,7 @@ font-family: 'Cinzel Decorative', cursive;
   .container {
     width: 100vw; /* Full width of the viewport */
     min-height: 100vh; /* Full height of the viewport */
-    background-image: url(SwordBackground.jpg);
+    background-image: url(titan.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top; /* Adjust position to move image up */
