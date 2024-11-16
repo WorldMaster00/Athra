@@ -95,22 +95,7 @@ font-family: 'Cinzel Decorative', cursive;
 
   .header-container {
     width: 100vw; /* Ensure the header spans the full width */
-  }
-
-.P1, .P2, .P3 {
-  background-color: transparent;
-  position: absolute;
-  width: 80%;
-  top: 30%;
-  left: 10%;
-  text-align: center;
-  font-size: 1rem;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}	
+  }	
 }
 
 @media screen and (max-width: 840px) { /* Target mobile viewports */
@@ -138,21 +123,6 @@ font-family: 'Cinzel Decorative', cursive;
   .header-container {
     width: 100vw; /* Ensure the header spans the full width */
   }
-
-.P1, .P2, .P3 {
-  background-color: transparent;
-  position: absolute;
-  width: 80%;
-  top: 30%;
-  left: 10%;
-  text-align: center;
-  font-size: 1rem;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
 }
 
 @media screen and (max-width: 980px) { /* Target mobile viewports */
@@ -179,22 +149,7 @@ font-family: 'Cinzel Decorative', cursive;
 
   .header-container {
     width: 100vw; /* Ensure the header spans the full width */
-  }
-
-.P1, .P2, .P3 {
-  background-color: transparent;
-  position: absolute;
-  width: 80%;
-  top: 30%;
-  left: 10%;
-  text-align: center;
-  font-size: 1rem;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}	
+  }	
 }
 
 /* General box sizing */
@@ -339,11 +294,6 @@ li, a, button {
   font-size: 1rem; 
   color: #F4DA65;
   padding-left: 10px; /* Add some padding to the left */
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 
 .P1 {
@@ -354,11 +304,6 @@ li, a, button {
   left: 10%;
   text-align: center;
   font-size: 1.5rem; 
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 
 .P2 {
@@ -369,10 +314,5 @@ li, a, button {
   left: 10%;
   text-align: center;
   font-size: 1rem;
-  text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 
