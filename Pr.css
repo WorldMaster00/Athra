@@ -85,12 +85,13 @@ font-family: 'Cinzel Decorative', cursive;
     min-height: 100vh; /* Full height of the viewport */
     background-image: url(titan.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center top; /* Adjust position to move image up */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll; /* Allow vertical scrolling if necessary */
   }
 
   .header-container {
@@ -112,12 +113,13 @@ font-family: 'Cinzel Decorative', cursive;
     min-height: 100vh; /* Full height of the viewport */
     background-image: url(titan.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center top; /* Adjust position to move image up */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll; /* Allow vertical scrolling if necessary */
   }
 
   .header-container {
@@ -139,12 +141,13 @@ font-family: 'Cinzel Decorative', cursive;
     min-height: 100vh; /* Full height of the viewport */
     background-image: url(titan.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center top; /* Adjust position to move image up */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll; /* Allow vertical scrolling if necessary */
   }
 
   .header-container {
