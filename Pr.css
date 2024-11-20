@@ -6,7 +6,7 @@ border: 0;
 font-size: 100%;
 vertical-align: baseline;
 font-family: 'Cinzel Decorative', cursive;
-  cursor: url(Cursor.png), auto;
+cursor: url(Cursor.png), auto;
 }
 
 .container {
@@ -83,7 +83,7 @@ font-family: 'Cinzel Decorative', cursive;
   .container {
     width: 100vw; /* Full width of the viewport */
     min-height: 100vh; /* Full height of the viewport */
-    background-image: url(titan.png);
+    background-color: #30302F;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top; /* Adjust position to move image up */
@@ -111,7 +111,7 @@ font-family: 'Cinzel Decorative', cursive;
   .container {
     width: 100vw; /* Full width of the viewport */
     min-height: 100vh; /* Full height of the viewport */
-    background-image: url(titan.png);
+    background-color: #30302F;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top; /* Adjust position to move image up */
@@ -139,7 +139,7 @@ font-family: 'Cinzel Decorative', cursive;
   .container {
     width: 100vw; /* Full width of the viewport */
     min-height: 100vh; /* Full height of the viewport */
-    background-image: url(titan.png);
+    background-color: #30302F;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top; /* Adjust position to move image up */
