@@ -98,6 +98,12 @@ cursor: url(Cursor.png), auto;
   .header-container {
     width: 100vw; /* Ensure the header spans the full width */
   }	
+.P1 {
+font-size: 3rem;
+}
+.P2 {
+font-size: 2rem;
+}
 }
 
 @media screen and (max-width: 840px) { /* Target mobile viewports */
@@ -127,6 +133,12 @@ cursor: url(Cursor.png), auto;
   .header-container {
     width: 100vw; /* Ensure the header spans the full width */
   }
+.P1 {
+font-size: 3rem;
+}
+.P2 {
+font-size: 2rem;
+}
 }
 
 @media screen and (max-width: 980px) { /* Target mobile viewports */
@@ -156,6 +168,12 @@ cursor: url(Cursor.png), auto;
   .header-container {
     width: 100vw; /* Ensure the header spans the full width */
   }	
+.P1 {
+font-size: 3rem;
+}
+.P2 {
+font-size: 2rem;
+}
 }
 
 /* General box sizing */
