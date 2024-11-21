@@ -84,6 +84,7 @@ cursor: url(Cursor.png), auto;
     width: 100vw; /* Full width of the viewport */
     min-height: 100vh; /* Full height of the viewport */
     background-color: #30302F;
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top; /* Adjust position to move image up */
@@ -112,6 +113,7 @@ cursor: url(Cursor.png), auto;
     width: 100vw; /* Full width of the viewport */
     min-height: 100vh; /* Full height of the viewport */
     background-color: #30302F;
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top; /* Adjust position to move image up */
@@ -140,6 +142,7 @@ cursor: url(Cursor.png), auto;
     width: 100vw; /* Full width of the viewport */
     min-height: 100vh; /* Full height of the viewport */
     background-color: #30302F;
+    background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top; /* Adjust position to move image up */
