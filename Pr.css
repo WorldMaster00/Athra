@@ -317,8 +317,8 @@ li, a, button {
   position: absolute;
   width: 80%;
   top: 40%;
-  left: 10%;
-  text-align: center;
+  left: 50%;
+  text-align: left;
   font-size: 1rem;
 }
 
